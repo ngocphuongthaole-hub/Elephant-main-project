@@ -12,3 +12,7 @@ button.addEventListener('click', ()  => {
 image.addEventListener('mouseover', () => {
     target.innerHTML="I am an Elephant";
 })
+
+image.addEventListener('mouseleave', () =>{
+    target.innerHTML="Goodbye Elephant";
+})
